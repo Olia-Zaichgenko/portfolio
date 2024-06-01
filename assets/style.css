@@ -16,6 +16,10 @@
 p{
     font-size: 28px;
 }
+a{
+    font-size: 28px;
+    color: #FFFFFF;
+}
 h1{
     font-family: "Geologica";
     font-size: 60px;
@@ -25,9 +29,13 @@ h2{
     font-size: 47px;
 }
 h3{
-    font-family: "Jura";
     font-size: 49px;
     color: #FFFFFF;
+}
+h4{
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 30px;
 }
 .navigation{
     margin-top: 50px;
@@ -109,4 +117,46 @@ h3{
 }
 .section-skills .description-skills{
     padding-bottom: 200px;
+}
+.section-portfolio h1{
+    color: #6D2932;
+    margin-top: 160px;
+}
+.section-portfolio .work{
+    width: 1560px;
+    height: 410px;
+    background-color: #6D2932;
+    border-radius: 30px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+}
+.section-portfolio .description-work{
+    padding: 90px 0 0 60px;
+}
+.section-portfolio .work .link {
+    margin-top: 20px;
+}
+.section-portfolio .work .link .arrow{
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+}
+.section-portfolio img{
+    margin-right: 30px;
+    border-radius: 50px;
+    padding: 30px;
+    margin-left: 30px;
+}
+.section-portfolio .work-2{
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: end;
+}
+.section-portfolio .work-2 .description-work{
+    padding-right: 60px;
+}
+.section-portfolio .works{
+    margin-bottom: 100px;
 }
