@@ -1,0 +1,68 @@
+/* подклчение шрифтов */
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Jura:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: "Jura";
+}
+.container{
+    width: 1570px;
+    margin: 0 auto;
+}
+p{
+    font-size: 28px;
+}
+h2{
+    font-family: "Geologica";
+    font-size: 47px;
+}
+.navigation{
+    margin-top: 50px;
+}
+.navigation a{
+    font-size: 28px;
+    color: #6D2932;
+    margin-right: 60px;
+    transition: .5s;
+}
+.navigation a:hover{
+    color: #89686c;
+    transition: .3s;
+}
+.head{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.description{
+    width: 650px;
+    height: 725px;
+    background-color: #E7E7E7;
+    border-radius: 20px;
+    margin-top: 140px;
+}
+.description h2{
+    padding-top: 90px;
+}
+.description p{
+    padding: 30px;
+}
+.description button{
+    margin-top: 40px;
+    width: 300px;
+    height: 70px;
+    background-color: #6D2932;
+    color: #E7E7E7;
+    border-radius: 20px;
+    font-size: 25px;
+}
+.picture img{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
