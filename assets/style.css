@@ -16,9 +16,18 @@
 p{
     font-size: 28px;
 }
+h1{
+    font-family: "Geologica";
+    font-size: 60px;
+}
 h2{
     font-family: "Geologica";
     font-size: 47px;
+}
+h3{
+    font-family: "Jura";
+    font-size: 49px;
+    color: #FFFFFF;
 }
 .navigation{
     margin-top: 50px;
@@ -65,4 +74,39 @@ h2{
     position: absolute;
     top: 0px;
     right: 0px;
+}
+.section-skills{
+    background-color: #6D2932;
+}
+.section-skills .container h1{
+    color: #FFFFFF;
+    margin-top: 160px;
+    padding-top: 120px;
+}
+.section-skills .heading{
+    display: flex;
+    flex-direction: row;
+    padding: 80px 0 0 40px;
+}
+.section-skills .heading img{
+    margin-right: 20px;
+}
+.section-skills .skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+.section-skills .type p{
+    color: #FFFFFF;
+    margin: 40px 0 0 40px;
+    width: 525px;
+}
+.section-skills .type{
+    width: 600px;
+    height: 530px;
+    border: 2px solid #FFFFFF;
+}
+.section-skills .description-skills{
+    padding-bottom: 200px;
 }
