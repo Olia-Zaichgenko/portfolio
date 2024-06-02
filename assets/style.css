@@ -485,3 +485,36 @@ h4{
         padding-bottom: 50px;
     }
 }
+@media (max-width:769px){
+    .container{
+        width: 700px !important;
+    }
+    .picture img {
+        width: 440px;
+    }
+    .description {
+        margin-top: 550px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .section-skills .type {
+        height: 365px;
+    }
+    .container-contact .line1 {
+        margin-top: 70px;
+    }
+    .section-contact .sot-seti .sot-set {
+        width: 60px;
+        height: 60px;
+    }
+    .section-contact .sot-seti {
+        margin: 32px 0 32px 0;
+    }
+    .section-career .stages {
+        padding-top: 50px;
+    }
+    .section-career .description-career {
+        padding-bottom: 140px;
+    }
+}
