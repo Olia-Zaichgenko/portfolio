@@ -661,6 +661,7 @@ h4{
     }
     .section-career h1 {
         padding-top: 70px;
+        text-align: center;
     }
     .section-career .stages .year {
         height: 35px;
@@ -669,6 +670,10 @@ h4{
     }
     .section-career .description-career {
         padding-bottom: 80px;
+    }
+    .section-career .stages {
+        padding-top: 40px;
+        align-items: center;
     }
 }
 @media (max-width:391px){
@@ -710,5 +715,69 @@ h4{
     }
     .section-career .description-career {
         padding-bottom: 110px;
+    }
+}
+@media (max-width:376px){
+    .container{
+        width: 350px !important;
+    }
+    p {
+        font-size: 13px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 24px;
+    }
+    .description button {
+        height: 30px;
+        width: 150px;
+    }
+    .description {
+        height: 225px;
+        margin-top: 390px;
+    }
+    .description p {
+        padding: 15px;
+    }
+    .picture img {
+        width: 300px;
+    }
+    .section-skills .container h1 {
+        padding-top: 30px;
+    }
+    .section-skills .skills {
+        margin-top: 30px;
+    }
+    .section-skills .type {
+        width: 300px;
+        height: 230px;
+    }
+    .section-skills .soft-skills {
+        margin-top: 50px;
+    }
+    .section-skills .heading img {
+        width: 50px;
+        height: 50px;
+    }
+    .section-contact .sot-seti .sot-set {
+        width: 40px;
+        height: 40px;
+    }
+    .section-contact .sot-seti {
+        margin: 20px 0;
+    }
+    .container-contact .line1 {
+        margin-top: 40px;
+    }
+    .section-career h1{
+        padding-top: 30px;
+    }
+    .section-career .stages {
+        padding-top: 50px;
+    }
+    .section-career .description-career {
+        padding-bottom: 45px;
     }
 }
