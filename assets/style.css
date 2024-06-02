@@ -9,6 +9,9 @@
     box-sizing: border-box;
     font-family: "Jura";
 }
+body{
+    background-color: #FFFFFF;
+}
 .container{
     width: 1570px;
     margin: 0 auto;
@@ -227,10 +230,17 @@ h4{
     }
     .picture img {
         width: 570px;
+        z-index: -100;
     }
     .description {
         width: 400px;
         height: 505px;
+    }
+    .navigation a {
+        color: #B67880;
+    }
+    .description h2 {
+        padding-top: 50px;
     }
     p {
         font-size: 22px;
@@ -274,6 +284,9 @@ h4{
     }
     .section-portfolio .description-work {
     padding: 40px 0 0 60px;
+    }
+    .description-work-mono{
+        padding-left: 0px !important;
     }
     .section-portfolio .work {
         margin-top: 40px;
