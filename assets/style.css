@@ -415,3 +415,40 @@ h4{
         padding-bottom: 230px;
     }
 }
+@media (max-width:835px){
+    .container{
+        width: 700px !important;
+    }
+    p{
+        font-size: 20px;
+    }
+    .description {
+        width: 90%;
+        height: 350px;
+        margin-top: 735px;
+    }
+    .head{
+        display: flex;
+        justify-content: center;
+    }
+    .description h2 {
+        padding-top: 20px;
+    }
+    .description button {
+        margin-top: 0px;
+        width: 250px;
+        height: 50px;
+    }
+    .section-skills .type {
+        height: 440px;
+    }
+    .container-contact .line1 {
+        margin-top: 100px;
+    }
+    .section-contact .sot-seti .sot-set {
+        margin-bottom: 20px;
+    }
+    .section-career .description-career {
+        padding-bottom: 150px;
+    }
+}
