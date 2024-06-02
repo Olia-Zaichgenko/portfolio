@@ -671,3 +671,44 @@ h4{
         padding-bottom: 80px;
     }
 }
+@media (max-width:391px){
+    .container{
+        width: 370px !important;
+    }
+    .description {
+        height: 300px;
+        margin-top: 475px;
+    }
+    .picture img {
+        width: 360px;
+    }
+    .description button {
+        height: 40px;
+    }
+    .section-skills .soft-skills {
+        margin-top: 80px;
+    }
+    .section-skills .type {
+        width: 300px;
+        height: 280px;
+    }
+    .section-skills .skills {
+        margin-top: 55px;
+    }
+    .section-portfolio h1 {
+        margin-top: 24px;
+    }
+    .section-contact .sot-seti .sot-set {
+        width: 60px;
+        height: 60px;
+    }
+    .section-contact .sot-seti {
+        margin: 29px 0;
+    }
+    .section-career .stages {
+        padding-top: 60px;
+    }
+    .section-career .description-career {
+        padding-bottom: 110px;
+    }
+}
