@@ -289,6 +289,43 @@ h4{
     }
 }
 
+@media (max-width:1367px){
+    .container{
+        width: 1200px !important;
+    }
+    p {
+        font-size: 26px;
+    }
+    .picture img {
+        width: 540px;
+    }
+    .description {
+        width: 600px;
+        height: 550px;
+    }
+    .description h2 {
+        padding-top: 50px;
+    }
+    .section-skills .skills {
+        margin-top: 30px;
+    }
+    .section-skills .container h1 {
+        padding-top: 50px;
+    }
+    .section-skills .description-skills {
+        padding-bottom: 85px;
+    }
+    .section-contact .sot-seti {
+        margin: 20px 0 20px 0;
+    }
+    .container-contact .line1 {
+        margin-top: 50px;
+    }
+    .section-career h1 {
+        padding-top: 20px;
+    }
+}
+
 @media (max-width:1281px){
     .container{
         width: 1000px !important;
@@ -366,6 +403,9 @@ h4{
     }
     .section-contact h1 {
         padding: 10px 0 10px 0;
+    }
+    .section-contact .sot-seti {
+        margin: 30px 0 30px 0;
     }
     .container-contact .line1 {
         margin-top: 90px;
