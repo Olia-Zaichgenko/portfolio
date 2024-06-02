@@ -277,6 +277,18 @@ h4{
     }
 }
 
+@media (max-width:1441px){
+    .container{
+        width: 1200px !important;
+    }
+    .section-portfolio .work {
+        width: 1200px;
+    }
+    .section-career .description-career {
+        padding-bottom: 50px;
+    }
+}
+
 @media (max-width:1281px){
     .container{
         width: 1000px !important;
