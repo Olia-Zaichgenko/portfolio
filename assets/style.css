@@ -224,13 +224,65 @@ h4{
     padding: 18px 40px;
 }
 
+@media (max-width:1601px){
+    .container{
+        width: 1400px !important;
+    }
+    .picture img {
+        width: 635px;
+        z-index: -100;
+    }
+    .description {
+        margin-top: 50px;
+        height: 670px;
+    }
+    .section-skills .container h1 {
+        padding-top: 90px;
+    }
+    .section-skills .skills {
+        margin-top: 90px;
+    }
+    .section-skills .description-skills {
+        padding-bottom: 110px;
+    }
+    .section-portfolio h1 {
+        margin-top: 50px;
+    }
+    .section-portfolio .work {
+        width: 1400px;
+        margin-top: 50px;
+        height: 340px;
+    }
+    .section-portfolio img {
+        width: 1000px;
+        height: 350px;
+    }
+    .section-portfolio .description-work {
+        padding: 20px 0 0 60px;
+    }
+    .container-contact .line1 {
+        margin-top: 100px;
+    }
+    .section-contact .description-contact {
+        margin-bottom: 90px;
+    }
+    .section-career h1 {
+        padding-top: 90px;
+    }
+    .section-career .description-career {
+        padding-bottom: 80px;
+    }
+    .section-skills .container h1 {
+        margin-top: 100px;
+    }
+}
+
 @media (max-width:1281px){
     .container{
         width: 1000px !important;
     }
     .picture img {
         width: 570px;
-        z-index: -100;
     }
     .description {
         width: 400px;
@@ -266,6 +318,9 @@ h4{
     }
     .section-skills{
         margin-top: -80px;
+    }
+    .section-skills .container h1 {
+        margin-top: 250px;
     }
     .section-skills .type {
         width: 500px;
