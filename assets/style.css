@@ -195,4 +195,29 @@ h4{
 .section-contact .description-contact{
     margin-bottom: 200px;
 }
+.section-career{
+    background: url(./img/fon_career.png);
+    color: #FFFFFF;
+}
+.section-career h1{
+    padding-top: 200px;
+}
+.section-career .description-career{
+    padding-bottom: 140px;
+}
+.section-career .stages{
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    width: 95%;
+}
+.section-career .stages .year{
+    color: #6D2932;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-right: 40px;
+}
+.section-career .stages .year p{
+    padding: 18px 40px;
+}
 
