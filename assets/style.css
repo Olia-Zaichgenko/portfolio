@@ -34,7 +34,7 @@ h3{
 }
 h4{
     font-size: 40px;
-    color: #FFFFFF;
+    color: #6D2932;
     margin-bottom: 30px;
 }
 .navigation{
@@ -125,9 +125,9 @@ h4{
 .section-portfolio .work{
     width: 1560px;
     height: 410px;
-    background-color: #6D2932;
+    border: 3px solid #6D2932;
     border-radius: 30px;
-    color: #FFFFFF;
+    color: #6D2932;
     display: flex;
     flex-direction: row;
     margin-top: 70px;
@@ -138,10 +138,14 @@ h4{
 .section-portfolio .work .link {
     margin-top: 20px;
 }
+.section-portfolio .work .link a {
+    color: #6D2932;
+}
 .section-portfolio .work .link .arrow{
     margin-left: 20px;
     width: 20px;
     height: 20px;
+    color: #6D2932;
 }
 .section-portfolio img{
     margin-right: 30px;
@@ -160,3 +164,35 @@ h4{
 .section-portfolio .works{
     margin-bottom: 100px;
 }
+.section-contact .head_contact{
+    background-color: #6D2932;
+    color:#FFFFFF;
+}
+.section-contact h1{
+    font-family: "Jura";
+    padding: 30px 0 30px 0;
+}
+.container-contact .line{
+    width: 100%;
+    border-top: 2px solid #6D2932;
+}
+.container-contact .line1{
+    margin-top: 200px;
+}
+.section-contact .sot-seti a{
+    color: #6D2932;
+}
+.section-contact .sot-seti {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0 30px 0;
+}
+.section-contact .sot-seti .sot-set{
+    width: 80px;
+    height: 80px;
+}
+.section-contact .description-contact{
+    margin-bottom: 200px;
+}
+
