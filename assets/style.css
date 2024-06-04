@@ -141,7 +141,7 @@ h4{
 .section-portfolio .work .link {
     margin-top: 20px;
 }
-.section-portfolio .work .link a {
+.section-portfolio .work a {
     color: #6D2932;
 }
 .section-portfolio .work .link .arrow{
@@ -726,7 +726,7 @@ h4{
         border-radius: 5px;
     }
     .section-portfolio .description-work {
-        padding: 10px 0px;
+        padding: 5px 0px;
     }
     .section-portfolio img {
         margin-left: 0px;
